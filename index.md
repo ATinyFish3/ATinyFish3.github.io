@@ -4,7 +4,7 @@ layout: default
 
 _site under construction_
 
-links here
+[Projects](./projects.md). [Blog](./blog.md).
 
 # About me
 
@@ -12,12 +12,12 @@ about me
 link to CV
 socials / contact
 
-# Projects / Portfolio
+# Projects / Portfolio Showcase
 
 links to 
 process of 
 
-# Blog
+# Blog Showcase
 
 blog page
 showcase / most recent
