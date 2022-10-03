@@ -14,7 +14,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 Recent projects:
 
-[This Site!](./projects/2022-10-03-gh-pages) - words here
+[This Site!](./projects/2022-10-03-gh-pages.md) - words here
 
 [All Projects](./projects.md)
 
