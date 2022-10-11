@@ -10,14 +10,18 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 # Projects
 
-Recent projects:
+## Recent projects:
 
 [This Site!](./projects/2022-10-03-gh-pages.md) - Creating a static website using GitHub Pages
 
-[All Projects](./projects.md)
+
+### [All Projects](./projects.md)
 
 # Blog
 
+## Recent Posts:
+
 [Post #1](./blogs/2022-10-11-post1.md)
 
-[All Blog Posts](./blog.md)
+
+### [All Posts](./blog.md) 
