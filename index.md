@@ -15,7 +15,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 [This Site!](./projects/2022-10-03-gh-pages.md) - Creating a static website using GitHub Pages
 
 
-### [All Projects](./projects.md)
+##### [All Projects](./projects.md)
 
 # Blog
 
@@ -24,4 +24,4 @@ I will be adding programming projects, blog posts and write ups to this site as 
 [Post #1](./blogs/2022-10-11-post1.md)
 
 
-### [All Posts](./blog.md) 
+##### [All Posts](./blog.md) 
