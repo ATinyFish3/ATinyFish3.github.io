@@ -24,62 +24,62 @@ I needed to enable SSH on the Pi so that I could access it remotely from my lapt
 Initially I had the Pi connected to my laptop directly, with an ethernet cable.
 I could now ssh on to the Pi in order to set up the proxy server on it:
 
-pic1
+![PiPic1](../assets/Picture1.png)
 
 ### Setting up the Proxy Server
 ### First Attempt
 
 Initially I had errors with installing anything on the Pi.
 
-pic2
+![PiPic2](../assets/Picture2.png)
 
 This was because the Pi was not able to connect to the internet through my laptop. I tried to fix this by enabling Internet Connection Sharing (ICS) from my network adapter with internet connection to the ethernet adapter connected to the Pi. However this still was not working.
 The error seemed to be a DHCP error – my laptop (using ICS) should have assigned an IP to the Pi within the networks address range however this was not happening; the Pi was using its default IP:
 
-pic3
+![PiPic3](../assets/Picture3.png)
 
 The Pi also did not have a default gateway so could not find a route to the network and therefore could not get internet access:
 
-pic4
+![PiPic4](../assets/Picture4.png)
 
 ### Second Attempt
 
 I connected the Raspberry Pi directly to my home router, this assigned the Pi an IP within the networks address range and fixed the error of having no internet connection:
 
-pic 5
+![PiPic5](../assets/Picture5.png)
 
 Next I could install Privoxy on the Pi:
 
-pic6
+![PiPic6](../assets/Picture6.png)
 
 Following [this tutorial](https://www.howtogeek.com/683971/how-to-use-a-raspberry-pi-as-a-proxy-server-with-privoxy/) I changed the listen address setting in the Privoxy config file:
 
-pic7
+![PiPic7](../assets/Picture7.png)
 
 This is to allow the proxy server to accept connections from devices that its not running on. The proxy server uses port 8118.
 I also added a line that would enable me to edit some of settings for the proxy server from its browser interface rather than needing to ssh into the Pi and change and save settings each time a change is made.
 I verified that the service was running:
 
-pic8
+![PiPic8](../assets/Picture8.png)
 
 ## Configure Client and Proxy
 ### Configure CLient to us Proxy Server
 
 Enabling the proxy could either be done in the browser:
 
-pic9
+![PiPic9](../assets/Picture9.png)
 
 Or on my laptop itself:
 
-pic10
+![PiPic10](../assets/Picture10.png)
 
 To check if the proxy is being used by the client by going to config.privoxy.org, if not being used by the client:
 
-pic11
+![PiPic11](../assets/Picture11.png)
 
 If being used:
 
-pic12
+![PiPic12](../assets/Picture12.png)
 
 I verified that I could still browse the web whist connected to the proxy server which worked.
 
@@ -87,15 +87,15 @@ I verified that I could still browse the web whist connected to the proxy server
 
 I changed the ‘action file’ to one of the predefined sets of actions to block ads on the web:
 
-pic13
+![PiPic13](../assets/Picture13.png)
 
 I tested browsing a website with ads without the proxy:
 
-pic14
+![PiPic14](../assets/Picture14.png)
 
 Then with the configured proxy:
 
-pic15
+![PiPic15](../assets/Picture15.png)
 
 ## Miscellaneous
 
