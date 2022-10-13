@@ -1,6 +1,6 @@
 # Raspberry Pi Proxy Server
 
-Over the summer I took part in a cyber security 8 week training course, as part of this I defined a project I would undertake; the writeup I made as part of this project follows:
+Over the summer I took part in a cyber security training course, as part of this I defined a project I would undertake; the writeup I made as part of this project follows:
 
 ## Description and Aims
 ### Description of the project and aims outline in the project proposal:
