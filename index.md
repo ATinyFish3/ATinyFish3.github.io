@@ -14,7 +14,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 [This Site!](./projects/2022-10-03-gh-pages.md) - Creating a static website using GitHub Pages
 
-[Raspberry Pi Proxy Server](./projects/Raspberry%20Pi%20Proxy%20Project.md)
+[Raspberry Pi Proxy Server](./projects/Raspberry-Pi-Proxy-Project.md)
 
 
 **[All Projects](./projects.md)**
