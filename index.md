@@ -19,6 +19,14 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 **[All Projects](./projects.md)**
 
+# News
+
+**2022-10-02** Site Created!
+
+**2022-09-03**  Started Year 3 of Uni 
+
+**[All News](./news.md)**
+
 # Blog
 
 ## Recent Posts:
