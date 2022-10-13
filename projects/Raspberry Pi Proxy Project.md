@@ -26,7 +26,7 @@ I could now ssh on to the Pi in order to set up the proxy server on it:
 
 ![PiPic1](../assets/Picture1.png)
 
-### Setting up the Proxy Server
+## Setting up the Proxy Server
 ### First Attempt
 
 Initially I had errors with installing anything on the Pi.
