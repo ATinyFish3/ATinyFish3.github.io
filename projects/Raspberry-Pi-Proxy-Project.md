@@ -110,8 +110,7 @@ Finding the IP of the Raspberry Pi – could use its hostname ‘raspberrypi / r
 -	[x] Configure browser/client to use the proxy
 -	[x] Be able to browse the web whilst connected to the proxy
 - [x]	Browse web with ads blocked correctly
--	[ ] Further refine configuration beyond the basic setup
-  -	(only used defaults)
+-	[ ] Further refine configuration beyond the basic setup (only used defaults)
 -	[ ] Be able to use the Raspberry Pi/proxy server on a different network (bonus)
 -	[x] Produce a report to document the process (this report!)
 
