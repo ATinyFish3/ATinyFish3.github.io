@@ -20,6 +20,8 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 # News
 
+**2022-10-15** | Started Tutoring Job
+
 **2022-10-02** Site Created!
 
 **2022-09-03**  Started Year 3 of Uni 
