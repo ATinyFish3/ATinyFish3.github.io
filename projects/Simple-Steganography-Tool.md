@@ -1,6 +1,6 @@
 *2022-10-16*
 
-During Year 2 of my university course I created a steganography tool for the programming module. The code can now be found [here](https://github.com/ATinyFish3/Simple-Steganography-Tool), what follows is a breakdown of the code:
+During Year 2 of my university course I created a steganography tool for the programming module. The code can now be found [here](https://github.com/ATinyFish3/Simple-Steganography-Tool), what follows is an overview of the code:
 
 # Prerequisite Fix
 
@@ -13,6 +13,7 @@ window.mainloop()
 ```
 
 Using PyCharm has also helped to identify other areas where the code can be improved - refining the code is something I will do after this writeup.
+
 ![Pycharm-Help](../assets/2022-10-16-PyCharm-Help.png)
 
 # What does the program do?
@@ -40,3 +41,123 @@ Checking the LSBs prints out all the characters of the image as if any of them c
 
 # Encoding
 
+The main function for the encoding is the stegEncode() function. This function starts off by gettin guser input for the text to hide in an image:
+
+```
+messageContainsEndStatement = ''
+    while messageContainsEndStatement != None:
+        message = getText()#message will be the text to hide in the image
+        messageContainsEndStatement = re.search(endStatement, message)#regex to search for endStatement in any part of the entered text
+        if messageContainsEndStatement != None:
+            print("Message cannot contain", endStatement)
+            time.sleep(.5)
+    message = message + endStatement
+```
+
+The 'endStatement' is a variable that holds the flag that gets added to the end of the user's text that is later used when decoding to find a message (and to know when the message ends). If the user enters the end statement as part of their text then their text may get cutoff or errors may occur, so this is checked for using a regex.
+
+The getText() is a function to get text input with some validation:
+
+```
+def getText():#Function to get message to hide
+    time.sleep(.4)
+    clear()
+    message = ''
+    while len(message) == 0:#Check user enters non null message
+        clear()
+        print("Enter text to hide in your file:\n")
+        message = input()
+        if len(message) == 0:
+            print("Enter at least some text!")
+            time.sleep(1)
+        
+    return message
+```
+
+The user can then choose to encrypt their message - acheived through the messageEncrypt() function which converts each character to ASCII then adds a set value to each ASCII character to perform a simple Caeser Cipher:
+
+```
+def messageEncrypt(text):#Function to encrypt message
+    textList = list(text)#Convert message to array so each character can be 
+
+    count = 0#Variable to increment each item in the message
+    for i in textList:
+        i = ord(i)#Convert character to unicode code
+        i = (i + cShift)%128#Caeser shift - mod 128 to avoid errors with nonprintable characters (0-127 unicode is ASCII)
+        #(Ebrahim, 2020)
+        i = i + uShift#Add 128 so characters are not printable (as looking at bits from image with no hidden message will look like this)
+        i = chr(i)#Change unicode back to character
+        textList[count] = i#Change original character to new character
+        count += 1#Increment count
+
+    text = "".join(textList)#Change the list of characters back into a string
+    return text
+```
+
+The text is converted to binary with the textToBinary() function that uses one clever line to do this:
+`messageBinary = ''.join(format(ord(i), '08b') for i in message)`
+
+The user also selects an image; using TKinter this is done by opening the file explorer. There is validation for checking the file extension so the file is definitely an image.
+
+```
+def getImage():#Function to get the image the user wants to use
+    imageFilePath = ''
+    isImage = False#Flag to check that chosen file is an image
+    while isImage == False:
+        time.sleep(.5)
+        clear()
+        imageFilePath = getFile()
+
+        if imageFilePath.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp')):#Make sure file selected is an image
+            #(How can I check the extension of a file?, 2011)
+            isImage = True
+            return imageFilePath
+
+        else:#If chosen file not valid or no file chosen then give user option to cancel and show valid file formats
+            print("Choose an image file (png, jpg, bmp)(press enter to continue)\nor [C]ancel\n")
+            cancelChoice = input()
+            if cancelChoice == 'C':
+                print("Returning to menu\n")
+                return False
+              
+def getFile():#Seperate this from just images so expansion easy (e.g. use same function to get path to sound files, text files...)
+    print("Choose an image!\n")
+    window = Tk()
+    filePath = askopenfilename()#(From tkinter library)
+    window.mainloop()
+    #(Choosing a file in Python with simple Dialog, 2010)
+    return filePath
+```
+
+Then the functions openImageBytes(), changeImageBytes() and binaryToImage() are called which converts the image to a NumPy array of bytes, changes the begining bytes to the bytes of the binary message then converts the final byte array back into an image. This stage also takes into account images with different colour bands (3,4).
+
+```
+def openImageBytes(path):#Function to get byte array of an image
+    with Image.open(path) as img:#Open image
+        width, height = img.size#Get width and height to be able to reshape array (change dimensions) to get data
+        data = np.array(img)
+        numBands = len(img.getbands())
+
+    data = np.reshape(data, width*height*(len(img.getbands())))
+    return data, width, height, numBands
+   
+def changeImageBytes(textBytes, imageBytes):#Function to put the bytes of the text in the bytes of the image
+    pos = 0#Position variable to increment
+    for i in textBytes:
+        imageBytes[pos] = ((imageBytes[pos] & ~1) | int(i))#Replace LSB with correct bit from text bytes
+        #(Replace least significant bit with bitwise operations, 2011)
+        pos += 1#Increment to next byte
+    #print(imageBytes)
+    return imageBytes
+    
+def binaryToImage(binary, width, height, numBands):#Function to turn array of bytes to image
+    binary = np.reshape(binary, (height, width, numBands))#Reshape byte array
+
+    saveImg = Image.fromarray(binary)#Make image from array
+
+    saveImage(saveImg)
+```
+
+saveImage() is a function that again uses TKinter and the file explorer to save the image, with regex validation on [Windows reserved words](https://learn.microsoft.com/en-gb/windows/win32/fileio/naming-a-file) which I found a file could erroneously be saved as when saving in this way. 
+
+...
