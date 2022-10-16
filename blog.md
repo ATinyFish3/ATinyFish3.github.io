@@ -1,3 +1,3 @@
 # Recent Posts
 
-[Post #1](./blogs/2022-10-11-post1.md)
+[What-Is-Steganography?](./blogs/2022-10-16-What-Is-Steganography?.md)
