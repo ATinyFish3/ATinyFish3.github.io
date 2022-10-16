@@ -34,7 +34,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent Posts:
 
-[Post #1](./blogs/2022-10-11-post1.md)
+[What-Is-Steganography?](./blogs/2022-10-16-What-Is-Steganography?.md)
 
 
 **[All Posts](./blog.md)**
