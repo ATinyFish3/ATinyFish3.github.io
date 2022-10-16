@@ -160,4 +160,49 @@ def binaryToImage(binary, width, height, numBands):#Function to turn array of by
 
 saveImage() is a function that again uses TKinter and the file explorer to save the image, with regex validation on [Windows reserved words](https://learn.microsoft.com/en-gb/windows/win32/fileio/naming-a-file) which I found a file could erroneously be saved as when saving in this way. 
 
-...
+# Decoding
+
+The main function for the decoding is the stegDecode() function. It starts by getting an image using the same getImage() function used for encoding, then gets the byte array for that image using the same openImageBytes() used for encoding.
+
+The getMessage() function looks through each character in the array (converted to unicode):
+
+```
+for i in imgArray:
+        c = chr(i)#Change unicode character from image into character
+        
+        message = message + c#Add character to message string
+```
+It checks the end of the message variable each time a character is added to it for the endStatement flag (and the encrypted equivalent). Once the flag is found it returns the message (without the flag), if no flag is found then it returns None.
+
+```
+if len(message) > len(endStatement):#checks message is long enough to contain end statement before checking if end statement is there so only one check performed rather than 2 when the subsequent checks are not needed
+            if message[-len(endStatement):] == endStatement:#Check the last characters of the message to see if they are the end of message flag
+                message = message[:-len(endStatement)]#Strip the last characters as not part of message
+                return message, False#Set isEncrypted to False
+
+            elif message[-len(endStatementEncrypt):] == endStatementEncrypt:#Check the last characters of the message to see if they are the end of message flag (encrypted)
+                message = message[:-len(endStatementEncrypt)]#Strip the last characters as not part of message
+                return message, True#Set isEncrypted to True
+
+    print("No message found\n")
+    return None, None#Return None if no message found
+```
+
+# Misc
+
+## Checking LSBs
+
+Checking the LSBs is a similar process to decoding but instead of looking for the endStratement flag all characters (converted to unicode) are printed to the screen.
+
+## Menu
+
+The menu is part of the main() loop such thqt it can be called repeatedly until a valid input is received - a technique used elsewhere in the program as well.
+
+## UX
+
+There are multiple sleep() commands so that the user has time to read console messages and the program can "flow" better. Performance could be greatly improved by removing these but this may worsen user experience.
+
+## Testing and Improvements
+
+The original testing I did was manual and the logical walkthrough of all paths that I tested can be seen in the [Testing.md](https://github.com/ATinyFish3/Simple-Steganography-Tool/blob/main/Testing.md) file. A future post here may be the improvements made to the program and implementing unit tests.
+
