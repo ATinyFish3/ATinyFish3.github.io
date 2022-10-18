@@ -1,4 +1,4 @@
-**2022-10-18 | Started [AGI Safety Fundamentals Fellowship](https://www.agisafetyfundamentals.com/)
+**2022-10-18** | Started [AGI Safety Fundamentals Fellowship](https://www.agisafetyfundamentals.com/)
 
 **2022-10-15** | Started Tutoring Job
 
