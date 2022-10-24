@@ -8,7 +8,7 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 ## Education and Qualifications
 
-**University of Warwick** | September 2020-Present
+**University of Warwick** \| September 2020-Present
 
 &nbsp;&nbsp;&nbsp;&nbsp;Cyber Security BSc - 2:1 expected
 
