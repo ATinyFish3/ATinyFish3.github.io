@@ -11,4 +11,5 @@ sidebar:
   - name: Github
     link: https://github.com/ATinyFish3
   - name: CV
-    jurl: /files/CURRICULUM-VITAE.html
+    link: ./files/CURRICULUM-VITAE.html
+  
