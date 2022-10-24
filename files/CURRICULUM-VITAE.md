@@ -14,8 +14,8 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 **Didcot 6th Form** \| September 2018-July 2020
 &nbsp;&nbsp;&nbsp;&nbsp;Maths - A \| Computer Science - A \| English Literature - A
 
-**St Birinus Secondary School** | September 2013-July 2018. 10 GCSEs, 8 grade 7+, including:
-&nbsp;&nbsp;&nbsp;&nbsp;Maths - 8 | English Language 7 | English Literature 8 | Computer Science 7 | Physics 9
+**St Birinus Secondary School** \| September 2013-July 2018. 10 GCSEs, 8 grade 7+, including:
+&nbsp;&nbsp;&nbsp;&nbsp;Maths - 8 \| English Language 7 \| English Literature 8 \| Computer Science 7 \| Physics 9
 
 ## Work Experience
 
