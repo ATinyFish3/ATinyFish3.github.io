@@ -22,19 +22,27 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 ## Work Experience
 
-**MyTutor** | October 2022-Present
+**MyTutor** \| October 2022-Present
+
 &nbsp;&nbsp;&nbsp;&nbsp;Tutoring secondary school students maths and english
-**Robert Dyas** | May 2019-Present
+
+**Robert Dyas** \| May 2019-Present
+
 &nbsp;&nbsp;&nbsp;&nbsp;Sales Assistant
 
 
 ---
 
-**HR Wallingford** | July 2019
+**HR Wallingford** \| July 2019
+
 &nbsp;&nbsp;&nbsp;&nbsp;Python programming
-**CISCO** | July 2017
+
+**CISCO** \| July 2017
+
 &nbsp;&nbsp;&nbsp;&nbsp;Python programming, UX design
-**Rutherford Appleton Laboratory** | June 2017
+
+**Rutherford Appleton Laboratory** \| June 2017
+
 &nbsp;&nbsp;&nbsp;&nbsp;Python programming, Git
 
 ## Key Skills
