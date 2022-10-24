@@ -58,9 +58,9 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 - Machine Learning
 - Reverse Engineering Assembly Code
 - Cyber Forensics
-	- Autopsy
-	- FTK Imager
-	- Case Study as 'Expert Witness'
+    - Autopsy
+    - FTK Imager
+    - Case Study as 'Expert Witness'
 - UX
 - Cyber Security Ethics
 - Cryptography
