@@ -22,7 +22,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 # News
 
-**2022-10-21** | Started [Effective Altruism Intro Fellowship](https://www.effectivealtruism.org/virtual-programs/introductory-program/)
+**2022-10-21** Started [Effective Altruism Intro Fellowship](https://www.effectivealtruism.org/virtual-programs/introductory-program/)
 
 **2022-10-18** Started [AGI Safety Fundamentals Fellowship](https://www.agisafetyfundamentals.com/)
 
