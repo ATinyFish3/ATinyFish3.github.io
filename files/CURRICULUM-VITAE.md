@@ -47,10 +47,10 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 ## Key Skills
 
-- Software Engineering - including using version control such as GitHub, working with a team using agile development, acting as projet manager
+- Software Engineering - including using version control such as GitHub, working with a team using agile development, acting as project manager
 	- Python
 	- C
-- Networking - including using Netkit (virtualised networking), Wireshark, and tools such as NMap
+- Networking - including using Netkit (virtualised networking), Wireshark, and tools such as Nmap
 - Information Management - including using PostgreSQL, UML diagrams
 - Machine Learning
 - Reverse Engineering Assembly Code
