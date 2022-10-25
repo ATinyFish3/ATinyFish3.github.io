@@ -31,7 +31,7 @@ img.save(img_name)
 
 And worked:
 
-![Image-of-QR-code-1](./assets/CV-QR.png)
+![Image-of-QR-code-1](../assets/CV-QR.png)
 
 Then I attempted different designs:
 
@@ -60,8 +60,8 @@ img = qr.make_image(image_factory=StyledPilImage, module_drawer=RoundedModuleDra
 img.save(o_img_name)
 ```
 
-![Image-of-QR-code-2](./assets/CV-QR-2.png)
+![Image-of-QR-code-2](../assets/CV-QR-2.png)
 
-![Image-of-QR-code-3](./assets/CV-QR-3.png)
+![Image-of-QR-code-3](../assets/CV-QR-3.png)
 
 I may improve this to take user inputs for the links and file names (with validation/sanitisation).
