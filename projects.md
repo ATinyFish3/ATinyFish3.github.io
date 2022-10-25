@@ -1,5 +1,7 @@
 # All Projects
 
+[Creating QR code Generator](./projects/qr-code.md)
+
 [Simple Steganography Tool](./projects/Simple-Steganography-Tool.md)
 
 [Raspberry Pi Proxy Server](./projects/Raspberry-Pi-Proxy-Project.md)
