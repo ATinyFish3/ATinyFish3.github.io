@@ -34,7 +34,6 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent Posts:
 
-[What-Is-Steganography?](./blogs/2022-10-16-What-Is-Steganography?.md)
-
+[Effectiveness of Giving Blood](./blogs/2022-10-25-On-Giving-Blood.md)
 
 **[All Posts](./blog.md)**
