@@ -35,6 +35,31 @@ And worked:
 
 Then I attempted different designs:
 
+```
+# Create QR code images
+
+# import modules
+import qrcode
+from qrcode.image.styledpil import StyledPilImage
+from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
+
+# inputs
+data = "https://atinyfish3.github.io/files/CURRICULUM-VITAE.html"
+o_img_name = 'CV-QR-3.png'
+
+
+# create qr data
+qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=12, border=1)
+
+qr.add_data(data)
+qr.make(fit=True)
+
+# create image
+
+img = qr.make_image(image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer())
+img.save(o_img_name)
+```
+
 ![Image-of-QR-code-2](./assets/CV-QR-2.png)
 
 ![Image-of-QR-code-3](./assets/CV-QR-3.png)
