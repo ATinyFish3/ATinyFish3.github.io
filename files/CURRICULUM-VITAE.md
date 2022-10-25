@@ -35,47 +35,29 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 **HR Wallingford** \| July 2019
 
-&nbsp;&nbsp;&nbsp;Python programming
+&nbsp;&nbsp;&nbsp;Python programming - Created a script to rectify errors present in CSVs
 
 **CISCO** \| July 2017
 
-&nbsp;&nbsp;&nbsp;Python programming, UX design
+&nbsp;&nbsp;&nbsp;Python programming, UX design - Worked with a team to devise an app idea and present using prototyped designs
 
 **Rutherford Appleton Laboratory** \| June 2017
 
-&nbsp;&nbsp;&nbsp;Python programming, Git
+&nbsp;&nbsp;&nbsp;Python programming - Created part of a program that would test whether a service was online or not
 
 ## Key Skills
 
-### University Modules
-
-- Operating Systems
-- Networking
-	- Netkit (virtualised networks)
-	- Wireshark
-- Information Management
-	- Postresql
-	- Entity Relationships
-	- Asset Management
-	- Data Protections Laws
-- Software Engineering
-	- Version Control
-		- GitHub
-	- Agile Development
-	- Python programming
-- Programming Languages
+- Software Engineering - including using version control such as GitHub, working with a team using agile development, acting as projet manager
 	- Python
 	- C
+- Networking - including using Netkit (virtualised networking), Wireshark, and tools such as NMap
+- Information Management - including using PostgreSQL, UML diagrams
 - Machine Learning
 - Reverse Engineering Assembly Code
-- Cyber Forensics
-    - Autopsy
-    - FTK Imager
-    - Case Study as 'Expert Witness'
-- UX
-- Cyber Security Ethics
+- Cyber Forensics - including using Autopsy and FTK Imager
+- Operating Systems
 - Cryptography
-- Docker
+- Cyber Security Ethics
 - Using and Scripting in Linux
 
 ## Extra Curricular
