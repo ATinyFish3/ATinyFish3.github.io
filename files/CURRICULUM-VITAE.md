@@ -4,7 +4,7 @@
 
 ## Personal Statement
 
-I am a 3rd year Cyber Security student at the University of Warwick with experience using a wide variety of cyber security tools and techniques.  I am also passionate about artificial intelligence/machine learning and its application in cyber security.
+I am a 3rd year Cyber Security student at the University of Warwick with experience using a wide variety of cyber security tools and techniques. I am also passionate about artificial intelligence/machine learning and its application in cyber security. I am self-motivated, able to work well within a team as well as on my own. With keen attention to detail, I take pride in my work.
 
 ## Education and Qualifications
 
@@ -18,13 +18,13 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 **St Birinus Secondary School** \| September 2013-July 2018. 10 GCSEs, 8 grade 7+, including:
 
-&nbsp;&nbsp;&nbsp;Maths - 8 \| English Language 7 \| English Literature 8 \| Computer Science 7 \| Physics 9
+&nbsp;&nbsp;&nbsp;Maths - 8 \| English Language - 7 \| English Literature - 8 \| Computer Science - 7 \| Physics - 9
 
 ## Work Experience
 
 **MyTutor** \| October 2022-Present
 
-&nbsp;&nbsp;&nbsp;Tutoring secondary school students maths and english
+&nbsp;&nbsp;&nbsp;Tutoring secondary school students Maths and English
 
 **Robert Dyas** \| May 2019-Present
 
@@ -50,7 +50,7 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 - Software Engineering - including using version control such as GitHub, working with a team using agile development, acting as project manager
 	- Python
 	- C
-- Networking - including using Netkit (virtualised networking), Wireshark, and tools such as Nmap
+- Networking - including Netkit (virtualised networking), Wireshark, and tools such as Nmap
 - Information Management - including using PostgreSQL, UML diagrams
 - Machine Learning
 - Reverse Engineering Assembly Code
@@ -62,4 +62,4 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 ## Extra-Curricular
 
-During summer 2022 participated in an 8 week cyber security training course, as part of this I completed a project that setup a proxy server using a Raspberry Pi as well as a team programming project using Python where I acted as project manager. In July 2018 I climbed Mt. Toubkal as part of a World Challenge expedition which also involved organising events to raise money for the expedition; all done as part of a team. At university I was part of the Radio Society and created numerous radio shows. Also at university I competed weekly with the Overwatch E-Sports team against other universities.
+During summer 2022, participated in an 8-week cyber security training course. As part of this I completed a project that set up a proxy server using a Raspberry Pi as well as a team programming project using Python where I acted as Project Manager. I have taken part in an 8-week long discussion and reading group about artificial general intelligence and AI safety as part of the university’s Effective Altruism Society. In July 2018 I climbed Morocco’s Mt. Toubkal as part of a World Challenge expedition which also involved organising events to raise money for the expedition; all done as part of a team. At university I was part of the Radio Society, creating and presenting numerous radio shows. Also at university I competed weekly with the Overwatch E-Sports team against other universities.
