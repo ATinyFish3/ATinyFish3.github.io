@@ -1,3 +1,5 @@
+2022-10-14 | Finished Reading '[Rationality: From AI to Zombies](https://www.lesswrong.com/tag/rationality:-from-ai-to-zombies), Eliezer Yudkowsky'
+
 **2022-10-21** | Started [Effective Altruism Intro Fellowship](https://www.effectivealtruism.org/virtual-programs/introductory-program/)
 
 **2022-10-18** | Started [AGI Safety Fundamentals Fellowship](https://www.agisafetyfundamentals.com/)
