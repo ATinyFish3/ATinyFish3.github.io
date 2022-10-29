@@ -1,3 +1,5 @@
+*2022-10-29*
+
 # Elephant Hunting
 
 Whilst reading through [the EA Handbook](https://forum.effectivealtruism.org/handbook) I reached the [Radical Empathy](https://forum.effectivealtruism.org/s/QMrYGgBvg64JhcQrS/p/ehZK259et52Xnvw5F) section and specifically the idea of the 'expanding circle' and had some ideas that I think might be worth writing down.
