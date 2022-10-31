@@ -54,6 +54,7 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 - Information Management - including using PostgreSQL, UML diagrams
 - Machine Learning
 - Reverse Engineering Assembly Code
+- Malware Analysis
 - Cyber Forensics - including using Autopsy and FTK Imager
 - Operating Systems
 - Cryptography
