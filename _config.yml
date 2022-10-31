@@ -1,6 +1,8 @@
 remote_theme: BDHU/minimalist
 title: Matthew Bream
-description: 3rd Year Cyber Security Student at University of Warwick > test
+description: |
+              3rd Year Cyber Security Student at University of Warwick
+              test
 color-scheme: auto
 logo: ./assets/Profile_Pic.png
 show_downloads: false
