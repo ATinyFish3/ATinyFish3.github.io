@@ -1,4 +1,4 @@
-[PDF/Download](/files/2022-10-30-CURRICULUM-VITAE.pdf)
+[PDF/Download](files/2022-10-31-CURRICULUM-VITAE.pdf)
 # CURRICULUM VITAE
 
 *Contact on LinkedIn*
