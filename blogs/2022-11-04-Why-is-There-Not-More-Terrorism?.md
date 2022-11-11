@@ -23,8 +23,6 @@ If all 3% of the US population who think that killing civilians (in the context 
 In 2016 a 19-tonne cargo truck was driven into crowds of people in Nice, France killing 86 and injuring 458. This is a particularly terrifying example of an already scary terror act - the reason I believe this to be so scary is that we see trucks everyday, or vans or cars - the barrier to entry for [vehicle-ramming attacks](https://en.wikipedia.org/wiki/Vehicle-ramming_attack) is incredibly, scarily low. However, this is also somewhat of an outlier; the average number of people killed inn these types of attack is 5 [[4]](https://www.rand.org/blog/2017/06/why-arent-there-more-terrorist-attacks-like-the-one.html)[[5]](https://en.wikipedia.org/wiki/Vehicle-ramming_attack#List_of_attacks). Maybe the Nice attack was worse because the attack used a truck - however the [2017 Stockholm truck attack](https://en.wikipedia.org/wiki/2017_Stockholm_truck_attack) killed 5 people. How is it that most attacks kill ~17 times less people than in Nice?
 In 2015 [hackers were able to remotely carjack a Jeep](https://www.independent.co.uk/news/science/hackers-remotely-carjack-jeep-from-10-miles-away-and-drive-it-into-ditch-10406554.html) but I cannot find any attacks using this technique. Why have we not seen any attacks like this in the last 7 years?
 
-I do not have an answer to these questions but a shot in the dark intuition: perhaps most people that have the intelligence and skills necessary to commit effective acts of terror are also intelligent enough not to do so.
-
 Maybe we're just lucky.
 
 
