@@ -22,11 +22,11 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 # News
 
+**2022-11-11** | Joined the [Effective Giving Bloggers Program](https://www.thelifeyoucansave.org/work-and-volunteer-with-us/)
+
 **2022-10-21** Started [Effective Altruism Intro Fellowship](https://www.effectivealtruism.org/virtual-programs/introductory-program/)
 
 **2022-10-18** Started [AGI Safety Fundamentals Fellowship](https://www.agisafetyfundamentals.com/)
-
-**2022-10-15** Started Tutoring Job
 
 **[All News](./news.md)**
 
