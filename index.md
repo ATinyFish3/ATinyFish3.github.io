@@ -12,11 +12,11 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent projects:
 
+[Wikipedia Web Scraper](./projects/2022-11-21-wikiWebScraper.md)
+
 [Creating QR code Generator](./projects/qr-code.md)
 
 [Simple Steganography Tool](./projects/Simple-Steganography-Tool.md)
-
-[Raspberry Pi Proxy Server](./projects/Raspberry-Pi-Proxy-Project.md)
 
 **[All Projects](./projects.md)**
 
