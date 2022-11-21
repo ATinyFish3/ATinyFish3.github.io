@@ -2,7 +2,7 @@
 
 *Written in response to the prompt: 'Reflect on the role of guilt in giving. Is guilt a good motivator for giving more and giving effectively? Are there other ways to feel motivated?' as part of the [Effective Giving Bloggers Program](https://www.thelifeyoucansave.org/work-and-volunteer-with-us/)*
 
-# Guilty Giving; Good?
+# Guilty Giving - Good?
 
 ## Why Feel Guilty in the First Place?
 
