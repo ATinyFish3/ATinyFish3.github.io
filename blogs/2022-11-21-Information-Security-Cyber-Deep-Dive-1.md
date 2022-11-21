@@ -4,7 +4,7 @@
 
 ## What is Information Security?
 
-Information security (or InfoSec) forms part of wider cyber security. It [refers exculisivly to the processes designed for data security](https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html). It is the [practice of protecting information and mitigating risk](https://en.wikipedia.org/wiki/Information_security), information security focuses on the CIA triad (confidentiality, integrity and availability).
+Information security (or InfoSec) forms part of wider cyber security. It [refers exclusively to the processes designed for data security](https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html). It is the [practice of protecting information and mitigating risk](https://en.wikipedia.org/wiki/Information_security), information security focuses on the CIA triad (confidentiality, integrity and availability).
 
 ## How is Information Security Achieved?
 
@@ -12,16 +12,16 @@ Information security can be achieved through the use of an [ISMS (Information Se
 
 Theses [processes can include](https://en.wikipedia.org/wiki/Information_security):
 
-- Assest identification
+- Asset identification
 - Threat and vulnerability identification
 - Risk evaluation
-- Risk management - leading to risk mitigation, risk avoidance or acceptence of risks
+- Risk management - leading to risk mitigation, risk avoidance or acceptance of risks
 - Designing and implementing security controls for risk mitigation
 - Continuous monitoring and improvement of current information management procedures
 
 ## Information Security Core Principles
 
-The core principles of information security are Confidentiality, Integrity and Availability. The balance of these principles is integral to an organisation's cyber security but they cann appear to be at odds with each other - for instance, encrypting data can ensure good confidentiality but if the data cannot be decrypted this would be bad for availability.
+The core principles of information security are Confidentiality, Integrity and Availability. The balance of these principles is integral to an organisation's cyber security but they can appear to be at odds with each other - for instance, encrypting data can ensure good confidentiality but if the data cannot be decrypted this would be bad for availability.
 
 ### Confidentiality
 
