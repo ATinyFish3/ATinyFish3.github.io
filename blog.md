@@ -4,6 +4,8 @@
 
 **2022-11-21** | [Information Security - Cyber Deep Dive #1](./blogs/2022-11-21-Information-Security-Cyber-Deep-Dive-1.md)
 
+**2022-11-21** | [Guilty Giving - Good?](./blogs/2022-11-18-Guilty-Giving-Good.md)
+
 **2022-11-04** | [Why is There Not More Terrorism](./blogs/2022-11-04-Why-is-There-Not-More-Terrorism.md)
 
 **2022-10-30** | [Correcter Horse Battery Staple](./blogs/2022-10-30-Correcter-Horse-Battery-Staple.md)
