@@ -34,7 +34,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent Posts:
 
-**2022-11-04** [Why is There Not More Terrorism](./blogs/2022-11-04-Why-is-There-Not-More-Terrorism?.md)
+**2022-11-04** [Why is There Not More Terrorism](./blogs/2022-11-04-Why-is-There-Not-More-Terrorism.md)
 
 **2022-10-30** [Correcter Horse Battery Staple](./blogs/2022-10-30-Correcter-Horse-Battery-Staple.md)
 
