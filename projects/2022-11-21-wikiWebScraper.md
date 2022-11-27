@@ -1,5 +1,7 @@
 *2022-11-21*
 
+*Most recent developments can be found on the [GitHub Repo](https://github.com/ATinyFish3/wikiWebScraper) (this page will be updated asap with each new development)*
+
 # Wikipedia Web Scraper Project
 
 Using the BeautifulSoup Python module I plan to build a web scraper for wikipedia pages. I think my aim for this will be to get user input on what information the user wants. This could include summary information e.g. get the first paragraph of a page, the contents table, search for strings the user specifies and anything else I think could be useful functionality.
