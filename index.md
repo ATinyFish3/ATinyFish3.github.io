@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# About me
+# About Me
 
 Hello! My name is Matthew, I'm currently an undergrad studying Cyber Security at the University of Warwick. When I graduate in 2023 I am looking forward to starting a career in cyber. I am interested also in AI/ML, this stems from my interest in [Effective Altruism](https://www.effectivealtruism.org/); a community which I am very passionate about.
 
