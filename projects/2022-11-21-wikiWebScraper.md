@@ -117,3 +117,27 @@ Now 'web scraping' still returns: `Web scraping, web harvesting, or web data ext
 Searching for 'red' returns: `Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet. It has a dominant wavelength of approximately 625–740 nanometres.[1] It is a primary color in the RGB color model and a secondary color (made from magenta and yellow) in the CMYK color model, and is the complementary color of cyan. Reds range from the brilliant yellow-tinged scarlet and vermillion to bluish-red crimson, and vary in shade from the pale red pink to the dark red burgundy.[2]`
 
 However 'web' still returns an undesirable result as the first "paragraph" is actually an unordered list <ul>. This is probably better to fix by getting the <ul>s as well and figuring out if the first <p> or <ul> is the first "paragraph".
+
+Testing on other search results reveals that sometimes the actual first paragraph is actually paras[1] not paras[0].
+    
+I also decided to put the print statements in the summary() function not the main scraper() function, outputting the summary in the future will depend on user input.
+    
+```
+
+def summary(pageURL):
+    soup = getHTML(pageURL)
+    # firstStuff = soup.find('div', class_='mw-parser-output')
+    try:
+        paras = soup.select('p')
+    except:
+        sys.exit('Error in extracting summary info')  # keep to handle exceptionos
+    numParas = len(paras)  # don't access summarResult[5] if only 2 elements
+    # print(numParas)
+    if numParas != 0:
+        para1 = paras[0].text
+        print(para1)
+    if numParas >= 2:
+        para2 = paras[1].text
+        print(para2)
+        # print(summaryResult[1].text)
+```
