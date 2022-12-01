@@ -169,3 +169,36 @@ Then got rid of bad nested IFs:
     else:
         print('Summary unavailable')
 ```
+
+Improve userSearch() return, from:
+
+```
+    if len(allResults) != 0:
+        return allResults[:numResults]
+    else:
+        return False
+```
+
+to:
+
+```
+    if allResults:
+        return allResults[:numResults]
+    else:
+        return False
+```
+
+## Get All text from a Wikipedia Page
+
+This was easy to adapt from the summary() function:
+
+```
+def allText(pageURL):  # Return all text from wiki page
+    soup = getHTML(pageURL)
+    try:
+        paras = soup.select('p')
+    except:
+        sys.exit('Error in extracting summary info')  # keep to handle exceptionos
+    for i in paras:
+        print(i.text)
+```
