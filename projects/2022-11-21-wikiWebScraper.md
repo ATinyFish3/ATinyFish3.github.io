@@ -119,7 +119,9 @@ Searching for 'red' returns: `Red is the color at the long wavelength end of the
 However 'web' still returns an undesirable result as the first "paragraph" is actually an unordered list. This is probably better to fix by getting the unordered lists as well and figuring out if the first paragrpah tag or unordered list tag is the first "paragraph".
 
 Testing on other search results reveals that sometimes the actual first paragraph is actually paras[1] not paras[0].
-    
+
+## QoL Improvements
+
 I also decided to put the print statements in the summary() function not the main scraper() function, outputting the summary in the future will depend on user input.
     
 ```
