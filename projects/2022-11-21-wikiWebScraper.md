@@ -90,7 +90,7 @@ Searching for 'web scraping' returns: `Web scraping, web harvesting, or web data
 
 Searching for 'red' returns an error.
 
-Searching for 'web' returns: `Web most often refers to: .'
+Searching for 'web' returns: `Web most often refers to:'
 
 These are not the desired results.
 
@@ -116,14 +116,13 @@ Now 'web scraping' still returns: `Web scraping, web harvesting, or web data ext
 
 Searching for 'red' returns: `Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet. It has a dominant wavelength of approximately 625–740 nanometres.[1] It is a primary color in the RGB color model and a secondary color (made from magenta and yellow) in the CMYK color model, and is the complementary color of cyan. Reds range from the brilliant yellow-tinged scarlet and vermillion to bluish-red crimson, and vary in shade from the pale red pink to the dark red burgundy.[2]`
 
-However 'web' still returns an undesirable result as the first "paragraph" is actually an unordered list <ul>. This is probably better to fix by getting the <ul>s as well and figuring out if the first <p> or <ul> is the first "paragraph".
+However 'web' still returns an undesirable result as the first "paragraph" is actually an unordered list. This is probably better to fix by getting the unordered lists as well and figuring out if the first paragrpah tag or unordered list tag is the first "paragraph".
 
 Testing on other search results reveals that sometimes the actual first paragraph is actually paras[1] not paras[0].
     
 I also decided to put the print statements in the summary() function not the main scraper() function, outputting the summary in the future will depend on user input.
     
 ```
-
 def summary(pageURL):
     soup = getHTML(pageURL)
     # firstStuff = soup.find('div', class_='mw-parser-output')
@@ -140,4 +139,31 @@ def summary(pageURL):
         para2 = paras[1].text
         print(para2)
         # print(summaryResult[1].text)
+```
+
+Then improved this to only print out the correct "first paragraph":
+
+```
+    if numParas != 0:
+        para1 = paras[0].text
+        print(len(para1))
+        if len(para1) <= 1:
+            if numParas >= 2:
+                para2 = paras[1].text
+                print('p2')
+                print(para2)
+        else:
+            print('p1')
+            print(para1)
+```
+
+Then got rid of bad nested IFs:
+
+```
+    if numParas >= 2 and len(paras[0]) <= 1:
+        print(paras[1].text)
+    elif numParas != 0:
+        print(paras[0].text)
+    else:
+        print('Summary unavailable')
 ```
