@@ -86,12 +86,11 @@ Returns the first paragraph and sentance of a Wikipedia page to act as summary i
 
 This is now the main area for improvement as this code is not very 'intelligent' e.g.:
 
-Searching for 'web scraping' returns: `Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.` as a first sentence. This is the desired result.
+Searching for 'web scraping' returns: `Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.[1] Web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.` This is the desired result.
 
 Searching for 'red' returns an error.
 
-Searching for 'web' returns: `Web most often refers to:
-.`
+Searching for 'web' returns: `Web most often refers to: .'
 
 These are not the desired results.
 
@@ -113,4 +112,8 @@ def summary(pageURL):
     return paras
 ```
 
+Now 'web scraping' still returns: `Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.[1] Web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.`
 
+Searching for 'red' returns: `Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet. It has a dominant wavelength of approximately 625–740 nanometres.[1] It is a primary color in the RGB color model and a secondary color (made from magenta and yellow) in the CMYK color model, and is the complementary color of cyan. Reds range from the brilliant yellow-tinged scarlet and vermillion to bluish-red crimson, and vary in shade from the pale red pink to the dark red burgundy.[2]`
+
+However 'web' still returns an undesirable result as the first "paragraph" is actually an unordered list <ul>. This is probably better to fix by getting the <ul>s as well and figuring out if the first <p> or <ul> is the first "paragraph".
