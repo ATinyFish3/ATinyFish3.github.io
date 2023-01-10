@@ -34,7 +34,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent Posts:
 
-**\[Update 2023-01-10\] **2022-12-29** [Year of Virtue](./blogs/2022-12-29-Year-of-Virtue.md)
+**\[Update 2023-01-10\]** **2022-12-29** [Year of Virtue](./blogs/2022-12-29-Year-of-Virtue.md)
 
 **2022-11-21** [Information Security - Cyber Deep Dive #1](./blogs/2022-11-21-Information-Security-Cyber-Deep-Dive-1.md)
 
