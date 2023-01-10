@@ -48,6 +48,8 @@ Creating life not empathatic but should balance with wider moral circle e.g. fut
 
 Should include animals 
 
+Risk Management for ethics - uncertainty, best judgement...
+
 ### Possible Solution to Problems Raised Here
 
 "Active" vs "Passive" empathy.
