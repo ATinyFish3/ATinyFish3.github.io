@@ -48,6 +48,10 @@ Creating life not empathatic but should balance with wider moral circle e.g. fut
 
 Should include animals 
 
+### Possible Solution to Problems Raised Here
+
+"Active" vs "Passive" empathy.
+
 <br/><br/>
 
-*Final, more coherent writing will be posted to [my substack](https://atinyfishswaterblogged.substack.com/)*
+*Final, more coherent writing will be posted to [my substack blog](https://atinyfishswaterblogged.substack.com/)*
