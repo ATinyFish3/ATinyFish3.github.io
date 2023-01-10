@@ -13,3 +13,41 @@ Looking at [virtue ethics](https://en.wikipedia.org/wiki/Virtue_ethics) some of 
 - One idea of having 'utility' be a virtue - what this would actually mean (as a virtue)?
 
 I think my aim will be to finalise a list of virtues and answer these questions within the next year - with the aim to use this to make consistent morally good actions going forward.
+
+*2023-01-10*
+
+## Notes on some musings
+
+Axiomatic Virtue Ethics
+
+Does just the virtue of 'empathy' act as an axiom for all good?
+
+Seems to just give Utilitarianism, oops
+
+
+Needs to pass tests of:
+
+  - switch tracks to kill 1 person better than killing 5 (e.g. empathy to all 6 equally but 5* more people / empathy to 5 > empathy to 1 
+
+
+  - Lie to Nazis cause -empathy from lying < than +empathy from people _not dying_
+
+  - Fraud to buy malaria nets bad? (SBF)
+
+Forgive murderers but dont 'ignore/discount' ~victims~ 
+
+^Incentive problem still - i.e. has to work in a world where people may act without empathy
+
+Incorporate uncertainty
+
+Rule utilitarianism - not good _in general_ to have people commiting fraud for "the greater good"
+
+If _I_ was xyz^ - but _I_ would have given money to charity rather than "invest" in crypto (work in world where people will invest in crypto). In world where I am more like them then definitly bad that I lost money but 
+
+Creating life not empathatic but should balance with wider moral circle e.g. future people
+
+Should include animals 
+
+<br/><br/>
+
+*Final, more coherent writing will be posted to [my substack](https://atinyfishswaterblogged.substack.com/)*
