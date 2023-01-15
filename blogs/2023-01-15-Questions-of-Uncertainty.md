@@ -18,4 +18,4 @@
 - EA "global north" imposing on "global south" - cap?
 - Moral weights of animals? - [Rethink Priorties Moral Weights Project](https://forum.effectivealtruism.org/s/y5n47MfgrKvTLE3pw)
 - Central/Instituitonal EA/EA figureheads - positive/negative? - should associate/align with?
-- Should we "[be f\*\*\*ing ruthless](https://thegoodblog.substack.com/p/be-fucking-ruthless)"?
+- Should we "[Be F\*\*\*ing Ruthless](https://thegoodblog.substack.com/p/be-fucking-ruthless)"?
