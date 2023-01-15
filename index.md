@@ -36,7 +36,7 @@ I will be adding programming projects, blog posts and write ups to this site as 
 
 ## Recent Posts:
 
-**2023-01-15** | [Questions of Uncertainty](./blogs/2023-01-15-Questions-of-Uncertainty.md)
+**2023-01-15** [Questions of Uncertainty](./blogs/2023-01-15-Questions-of-Uncertainty.md)
 
 **\[Update 2023-01-10\]** **2022-12-29** [Year of Virtue](./blogs/2022-12-29-Year-of-Virtue.md)
 
