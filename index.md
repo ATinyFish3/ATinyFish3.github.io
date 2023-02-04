@@ -6,9 +6,11 @@ layout: default
 
 # About Me
 
-Hello and welcome to my personal website. I am Matthew, a 3rd year Cyber Security student at the University of Warwick, with a passion for technology and a drive to excel in the field. I am on track to graduate in 2023 and am eager to embark on a career in the rapidly evolving world of cyber security.
+Hello and welcome to my personal website. I am Matthew, a 3rd year Cyber Security student at the University of Warwick, with a passion for technology and a drive to excel in the field. I am also deeply interested in AI/ML and its potential to drive positive change, stemming from my involvement in the Effective Altruism community - a philosophy and social movement that aims to use evidence and reason to determine the most effective ways to improve the world.
 
-This website serves as a showcase of my skills and interests, including programming projects, technical writing, and thought-provoking blog posts. Thank you for visiting!
+I am on track to graduate in 2023 and am eager to embark on a career in the rapidly evolving world of cyber security. This website serves as a showcase of my skills and interests, including programming projects, technical writing, and thought-provoking blog posts. 
+
+By leveraging my technical expertise and passion for making a difference, I am confident that I can make a positive impact on the world. Thank you for visiting!
 
 # Projects
 
