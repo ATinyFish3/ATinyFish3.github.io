@@ -50,9 +50,25 @@ Should include animals
 
 Risk Management for ethics - uncertainty, best judgement...
 
-### Possible Solution to Problems Raised Here
+Possible Solution to Problems - "Active" vs "Passive" empathy.
 
-"Active" vs "Passive" empathy.
+*2023-02-04*
+
+Asked ChatGPT to refine the virtues from [this post](https://forum.effectivealtruism.org/posts/q7WwTuZQWMqDEEoWM/virtues-for-real-world-utilitarians).
+
+Cherry picked its response and came up with this:
+
+Empathy: To prioritize the well-being of others and take action to make a positive impact.
+
+Rationality - to make decisions based on evidence and reason, rather than biases and emotions.
+
+Open-mindedness - to continuously seek and consider new information and perspectives.
+
+Resilience - to consistently adhere to one's principles, even in the face of challenges or opposition.
+
+Also asked it how these would interact with various ethical dilemmas and it seemed to fair well.
+
+
 
 <br/><br/>
 
