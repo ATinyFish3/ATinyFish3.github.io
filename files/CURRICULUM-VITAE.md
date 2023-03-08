@@ -31,21 +31,6 @@ I am a 3rd year Cyber Security student at the University of Warwick with experie
 
 &nbsp;&nbsp;&nbsp;Sales Assistant
 
-
----
-
-**HR Wallingford** \| July 2019
-
-&nbsp;&nbsp;&nbsp;Python programming - Created a script to rectify errors present in CSVs
-
-**CISCO** \| July 2017
-
-&nbsp;&nbsp;&nbsp;Python programming, UX design - Worked with a team to devise an app idea and present using prototyped designs
-
-**Rutherford Appleton Laboratory** \| June 2017
-
-&nbsp;&nbsp;&nbsp;Python programming - Created part of a program that would test whether a service was online or not
-
 ## Key Skills
 
 - Software Engineering - including using version control such as GitHub, working with a team using agile development, acting as project manager
