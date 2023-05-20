@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Matthew Bream
+# My Site for Things™
 
 # About Me
 
