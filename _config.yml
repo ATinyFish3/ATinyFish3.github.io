@@ -14,5 +14,5 @@ sidebar:
     link: ./files/CURRICULUM-VITAE.html
   - name: Twitter
     link: https://twitter.com/MKBream
-  - name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # super secret link
+  - name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' # super secret link
     link: https://www.givingwhatwecan.org/donate/organizations
