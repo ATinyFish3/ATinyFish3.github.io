@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# My Site for Things™
+# Site for Things™
 
 # About Me
 
@@ -26,9 +26,9 @@ By leveraging my technical expertise and passion for making a difference, I am c
 
 # News
 
-**2023-05-20** | Final University Coursework Submitted!
+**2023-05-20** Final University Coursework Submitted!
 
-**2023-MM-DD** | Job Acquired
+**2023-MM-DD** Job Acquired
 
 **2022-11-11** Joined the [Effective Giving Bloggers Program](https://www.thelifeyoucansave.org/work-and-volunteer-with-us/)
 
