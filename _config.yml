@@ -1,0 +1,16 @@
+remote_theme: BDHU/minimalist
+title: ATinyFish
+description: Graduate Security Consultant
+color-scheme: auto
+logo: ./assets/Profile_Pic.png
+show_downloads: false
+
+sidebar:
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/matthew-bream/
+  - name: Github
+    link: https://github.com/ATinyFish3
+  - name: CV
+    link: ./files/CURRICULUM-VITAE.html
+  - name: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' # super secret link
+    link: https://www.givingwhatwecan.org/donate/organizations
